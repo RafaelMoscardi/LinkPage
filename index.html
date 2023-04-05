@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
         <link rel="stylesheet" href="./style.css">
         <title>LinkPage</title>
@@ -15,7 +16,7 @@
         <main class="secao-principal">
 
             <header class="Topo">
-                <button class="Topo__interruptor">
+                <button class="Topo__interruptor" id="interruptor">
                     <img src="./imagens/light-bulb.svg" alt="Ícone de Interruptor">
                 </button>
                 <img class="topo__foto-perfil" src="./imagens/profile-modified.png" alt="Foto de Perfil">
@@ -24,29 +25,31 @@
             </header>
 
             <section class="Links">
-                <a class="Links__link" href="https://">
-                    <i></i>
+                <a class="Links__link" href="https://rafaelmoscardi.github.io/Site/">
+                    <i class="ri-global-fill links__icone"></i>
                     Portifolio
                 </a>
-                <a class="Links__link" href="https://">
-                    <i></i>
+                <a class="Links__link" href="https://www.instagram.com/rafael_moscardi/">
+                    <i class="ri-instagram-fill links__icone"></i>
                     Instagram
                 </a>
-                <a class="Links__link" href="https://">
-                    <i></i>
+                <a class="Links__link" href="https://www.linkedin.com/in/rafaelmoscardi/">
+                    <i class="ri-linkedin-box-fill links__icone"></i>
                     Linkedin
                 </a>
-                <a class="Links__link" href="https://">
-                    <i></i>
+                <a class="Links__link" href="https://github.com/RafaelMoscardi">
+                    <i class="ri-github-fill links__icone"></i>
                     Github
                 </a>
             </section>
 
             <footer class="Rodape">
-                <p class="Rodape__pergunta">Algum projeto em mente?</p>
+                <p class="Rodape__pergunta">Se te interessar</p>
                 <p class="Rodape__convite">Me chama no direct!</p>
-                <i></i>
+                <i class="ri-send-plane-fill rodape__icone"></i>
             </footer>
         </main>
+
+        <script src="./script.js"></script>
     </body>
 </html>

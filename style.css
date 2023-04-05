@@ -20,9 +20,15 @@
 
 body {
     font-family: "Barlow", sans-serif;
+    transition: 0.3s;
 
     background: var(--cor-de-fundo);
     -webkit-font-smoothing: antialiased;
+}
+
+.secao-principal {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 /* Topo */
@@ -77,6 +83,7 @@ body {
 }
 
 .Links__link {
+    position: relative;
     margin-bottom: 15px;
 
     height: 52px;
@@ -93,6 +100,12 @@ body {
     text-decoration: none;
 
     transition: 0.3s;
+}
+
+.links__icone {
+    position: absolute;
+    left: 19px;
+    font-size: 22px;
 }
 
 .Links__link:hover {
@@ -113,4 +126,9 @@ body {
 .Rodape__convite {
     font-weight: 700;
     margin-top: 4px;
+}
+
+.rodape__icone {
+    margin-top: 20px;
+    font-size: 30px;
 }
